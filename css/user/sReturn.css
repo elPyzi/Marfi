@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    border: 0;
+    list-style-type: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header {
+    height: 10vh;
+    padding: 1%;
+}
+
+.header-nav {
+    padding: 1%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    /* width: 100vw; */
+}
+
+.header-nav>div {
+    margin-left: -9%;
+}
+
+
+
+
+.logo {
+    /* background-color: aqua; */
+    display: flex;
+    flex-flow: column;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>span:first-child {
+    font-size: 28px;
+
+}
+
+.left-side-bar {
+    width: 20%;
+    margin-right: 1%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+    font-weight: 550;
+}
+
+
+.rights-side-bar {
+    display: flex;
+    gap: 10%;
+    width: 15%;
+    justify-content: flex-end;
+}
+
+main{
+    padding: 1%;    
+    height: 90vh;   
+   
+}
+main>h1{
+    margin-bottom: 1%;
+}
+main>p{
+    margin-bottom: 1%;
+}
+.return-to-shop{
+    display: block;
+    text-align: center;
+    width: 15%;
+    box-sizing: border-box;
+    padding: 1%;
+    border: 1px solid black;
+    font-weight: 520;
+    font-size: 13px;
+}
+
+

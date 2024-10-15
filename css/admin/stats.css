@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    border: 0;
+    list-style-type: none;
+}
+
+.stat{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-content: space-between; */
+}
+
+.item-stat{
+    padding: 1%;
+    width: 20vw;
+    height: 20vh;
+    background-color: #e2e5ea;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 5px;
+}
+
+.sales,.map{
+    width: 40%;
+    height: 40%;
+}
+
+.imgStat{
+    width: 100%;
+    height: 100%;
+    background-image: url('../../media/line-graph.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.quantity{
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-right: 1%;
+}
+
+.quantity>span{
+    height: 70%;
+    font-size: 64px;
+}
+
+.svgPic{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+

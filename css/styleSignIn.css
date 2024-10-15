@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    border: 0;
+    list-style-type: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header {
+    height: 10vh;
+    padding: 1%;
+}
+
+.header-nav {
+    padding: 1%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+    /* width: 100vw; */
+}
+
+.header-nav>div {
+    margin-left: -9%;
+}
+
+
+
+
+.logo {
+    /* background-color: aqua; */
+    display: flex;
+    flex-flow: column;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>span:first-child {
+    font-size: 28px;
+
+}
+
+.left-side-bar {
+    width: 20%;
+    margin-right: 1%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+    font-weight: 550;
+}
+
+
+
+.rights-side-bar {
+    display: flex;
+    gap: 10%;
+    width: 15%;
+    justify-content: flex-end;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-sign-in {
+    font-size: 20px;
+
+    margin: 2% 0;
+}
+
+
+.sign-in {
+    /* margin: auto; */
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-radius: 5px 5px 0 0;
+    width: 35%;
+    
+    padding: 3%;
+    
+}
+
+.sign-in>div {
+    margin-bottom: 3%;
+}
+
+.sign-in>div:last-child {
+    margin-bottom: 0;
+}
+
+.sign-in>div>input {
+    padding: 2%;
+    border: 2px solid #ABABAB;
+    height: 18%;
+    width: 100%;
+}
+.sign-in>div:nth-child(3) {
+ margin-bottom: 5%;
+}
+
+.reg-form>div>button,
+.btnEnter>button {
+    color: white;
+    padding: 4%;
+    font-size: larger;
+    width: 100%;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+}
+
+
+.forgot{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-top: -5%;
+    /* width: 35%; */
+    /* height: 50vh; */
+    padding: 3%;
+}
+#forgotBtn {
+    font-size: 14px;
+    color: #737373;
+    border-bottom: 1px solid black;
+}
+
+.modal-content>form>p:first-child{
+    font-size: 20px;
+text-align: center;
+    margin: 2% 0;
+}
+
+
+
+.modal-content>form>input{
+    padding: 2%;
+    border: 2px solid #ABABAB;
+    height: 18%;
+    width: 100%;
+    margin-top: 1.5%;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+.modal-content>p:first-child{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 3%;
+}
+
+
+.modal-content>input {
+    padding: 1%;
+    border: 2px solid #ABABAB;
+    height: 10%;
+    width: 100%;
+    margin-top: 1.2%;
+}
+
+
+.btnBar{
+    margin: 3% auto 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btnBar>button:first-child{
+    border:1px solid #ABABAB;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.btnBar>button:first-child:hover{
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.btnBar>button:nth-child(2){
+    /* border:1px solid #ABABAB; */
+    padding: 2%;
+}
+
+
+.btnBar>button:last-child{
+    /* border:1px solid #ABABAB; */
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+
+.btnBar>button:last-child:hover{
+    /* border:1px solid #ABABAB; */
+    background-color: inherit;
+    color: black;
+    border:1px solid #ABABAB;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.accordion-btn-reg {
+    width: 35%;
+    padding: 1% 0.5%;
+    /* background-color: #eee; */
+    text-align: center;
+    /* align-self: flex-start; */
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+}
+
+ .accordion-btn-reg:hover {
+    color: brown;
+   
+}
+.active,
+.accordion-btn-reg:focus {
+    border-right: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+
+}
+.active,
+.accordion-btn-reg:active {
+    border-right: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    border: 0;
+}
+
+.reg-form {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+
+    border: 3px solid black;
+    border-radius: 5px 5px 0 0;
+    width: 35%;
+    padding: 3%;
+
+    /* 
+    margin-bottom: 20%; */
+}
+
+.reg-form>div {
+    margin-bottom: 3%;
+}
+
+.reg-form>div>input,
+select,
+option {
+    padding: 2%;
+    border: 2px solid #ABABAB;
+    height: 18%;
+    width: 100%;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    font-size: 14px;
+}
+
+label>a {
+    text-decoration: underline;
+}
+
+label>a:hover {
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+.returnBack {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    margin: 0 auto 10% auto;
+    display: block;
+    font-size: large;
+    position: relative;
+    margin-top: 2%;
+}
+
+.returnBack::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    width: 0;
+    transition: 0.3s;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.returnBack:hover::after {
+    width: 100%;
+}
+
+
+
+
+#sendToEmail{
+display: block;
+}
+
+
+#checkNumbers{
+    display: none;
+}
+
+

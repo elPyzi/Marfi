@@ -1,0 +1,37 @@
+/* form{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.form-item{
+    display: flex;
+    align-items: baseline;
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.form-item>p{
+    width: 15%;
+    margin-right: 10%;
+    color: white;
+    font-size: 18px;
+}
+
+.form-item>input,
+.form-item>select{
+    background-color: #EFEFEF;
+    padding: 0.5%;
+    width: 70%;
+    height: 7vh;
+}
+
+.searchBtn{
+    /* width: 6%; */
+    border: 0;
+    color: white;
+    background-color: inherit;
+    font-size: 18px;
+    border-bottom:2px solid white;
+    margin-left: 22.5%;
+}

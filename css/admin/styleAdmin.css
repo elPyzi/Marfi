@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    border: 0;
+    list-style-type: none;
+}
+
+
+.qwer {
+    color: white;
+    font-size: 24px;
+}
+
+.panel {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+a>span,
+aside>div>span {
+    color: white;
+}
+
+a>span:first-child {
+    color: black;
+}
+
+aside {
+    /* padding: 1%; */
+    color: white;
+    background-color: #151719;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bye {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10%;
+    align-items: center;
+    color: white;
+}
+
+.bye>button {
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+
+.slogan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0 15% 0;
+}
+
+.slogan>span {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav>a {
+    font-size: 20px;
+    padding: 1%;
+    /* margin-bottom: 5%;   */
+    width: 100%;
+    height: 7vh;
+
+
+    display: flex;
+    align-items: center;
+}
+
+nav>a:hover {
+    background-color: #353535;
+}
+
+
+
+svg {
+    margin-right: 5%;
+}
+
+/*  */
+
+
+
+section {
+    padding: 1%;
+    width: 80%;
+    background-color: black;
+
+}
+
+
+
+
+
+
+input,
+select {
+    font-size: 18px;
+}
+
+
+
+
+
+.result {
+    padding: 1%;
+    margin: 5% auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result>h1 {
+    align-items: center;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.userName,
+.userEmail,
+.status {
+    color: white;
+    font-size: 18px;
+}
+
+.inf {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+
+}

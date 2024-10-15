@@ -1,0 +1,47 @@
+form{
+    margin-bottom: 5%;
+}
+form>div{
+    width: 75%;
+    margin-bottom: 2%;
+}
+.form-item{
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.form-item>p{
+    width: 15%;
+    margin-right: 10%;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+input[type="text"],input[type="number"],select{
+    background-color: #EFEFEF;
+    padding: 0.5%;
+    width: 70%;
+    height: 7vh;
+}
+
+.addBtn{
+    /* width: 6%; */
+    border: 0;
+    color: white;
+    background-color: inherit;
+    font-size: 18px;
+    border-bottom:2px solid white;
+    margin: 2% 0 0 19%;
+}
+.removeBtn{
+    /* width: 6%; */
+    border: 0;
+    color: white;
+    background-color: inherit;
+    font-size: 18px;
+    border-bottom:2px solid white;
+    margin: 2% 0 0 19%;
+}

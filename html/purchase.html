@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/purchase.css">
+    <script src="../js/purchase.js"></script>
+    <script src="../js/load.js"></script>
+    <title>Покупка</title>
+</head>
+
+<body>
+    <header>
+        <a href="../html/helloMarfi.html" class="logo">
+            <span>Marfi</span>
+            <span>Следуй за собой</span>
+        </a>
+        <span>
+            Безопасный заказ
+        </span>
+    </header>
+    <main>
+        <form onsubmit="purchase(event)" action="#" name="buy" id="formToBuy">
+            <h2>
+                Детали заказа
+
+            </h2>
+            <span>
+                Итоговая цена: <span id="amount">
+                    
+                </span>
+            </span>
+
+            <h3>
+                Адресс
+            </h3>
+            <div class="peronalInfo">
+                <input  required placeholder="Имя" type="text">
+                <input  required placeholder="Фамилия" type="text">
+            </div>
+            <input  required placeholder="Адресс на котором вы проживаете" type="text" name="" id="">
+            <input placeholder="Дополнительная информация(опционально)" type="text" name="" id="">
+            <div class="city">
+                <input pattern="[0-9]{5}" placeholder="Zip-код" type="text" name="" id="">
+                <input placeholder="Город в котром вы проживаете" type="text" name="" id="">
+            </div>
+            <h3>
+                Детали покупки
+            </h3>
+            <p style="margin-bottom: 1%;">
+                Как вы хотите произвести оплату?
+            </p>
+            <select name="" id="">
+                <option value="">Наличкой</option>
+                <option value="">Картой курьеру</option>
+            </select>
+
+            <button class="pay">
+                Произвести заказ
+            </button>
+        </form>
+
+    </main>
+
+
+
+    <footer>
+        <span class="contact">
+            Контакт
+        </span>
+        <div class="mini_info">
+            <p><b>375295730782</b>(бесплатно для звонков)</p>
+            <p>Пн-сб 9:00 до 20:00</p>
+            <a href="">Отправь нам сообщение сдесь</a>
+        </div>
+
+        <div class="bottom-bar">
+            <span>&copy;Marfi 2024</span>
+        </div>
+    </footer>
+</body>
+
+</html>

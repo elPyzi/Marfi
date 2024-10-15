@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    border: 0;
+    list-style-type: none;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header {
+    padding: 1%;
+
+    height: 10vh;
+    border-bottom: 1px solid #e0dede;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo {
+    /* background-color: aqua; */
+    display: inline-flex;
+    flex-flow: column;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.logo>span:first-child {
+    font-size: 28px;
+}
+
+main {
+    padding: 1%;
+    height: 90vh;
+}
+
+form {
+    width: 40%;
+    margin: auto;
+}
+
+form>h2+span {
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+input,
+select {
+    padding: 1.5%;
+    border: 2px solid #ABABAB;
+    height: 25%;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+h3 {
+    margin-bottom: 2%;
+}
+
+.peronalInfo,
+.city {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.peronalInfo>input {
+    display: inline-block;
+    width: 49%;
+}
+
+.city>input:first-child {
+    width: 25%;
+}
+
+.city>input:last-child {
+    width: 70%;
+}
+
+
+.pay {
+    float: right;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+.contact,
+.mini_info {
+    margin-left: 7%;
+}
+
+.contact {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.mini_info>p,
+.mini_info>a {
+    font-size: 13px;
+}
+
+.mini_info>a {
+    display: inline-block;
+    margin: 1% 0 2% 0;
+    text-decoration: underline;
+}
+
+
+.bottom-bar {
+    padding: 1.5%;
+    background-color: black;
+
+}
+
+.bottom-bar>span {
+    color: #999999;
+    font-size: 16px;
+
+}

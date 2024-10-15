@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/admin/styleAdmin.css">
+    <link rel="stylesheet" href="../../css/admin/adminUsers.css">
+    <script src="../../js/isAuth.js"></script>
+
+    <title>Admin</title>
+</head>
+
+<body>
+    <main>
+        <aside>
+            <div class="slogan">
+                <span>Marfi</span>
+                <span>команда</span>
+            </div>
+            <nav>
+                <a href="adminPage.html">
+                    <svg width="15%" hieght="15%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000" stroke="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <defs>
+                                <style>
+                                    .a {
+                                        fill: none;
+                                        stroke: #ffffff;
+                                        stroke-linecap: round;
+                                        stroke-linejoin: round;
+                                        stroke-width: 1.5px;
+                                    }
+                                </style>
+                            </defs>
+                            <line class="a" x1="2" x2="22" y1="20" y2="20"></line>
+                            <path class="a" d="M5,20V8.2A.2.2,0,0,1,5.2,8H7.8a.2.2,0,0,1,.2.2V20"></path>
+                            <path class="a"
+                                d="M11,20V4.26667C11,4.11939,11.08954,4,11.2,4h2.6c.11046,0,.2.11939.2.26667V20"></path>
+                            <path class="a" d="M17,20V11.15c0-.08284.08954-.15.2-.15h2.6c.11046,0,.2.06716.2.15V20">
+                            </path>
+                        </g>
+                    </svg>
+                    <span>
+                        Статистика
+                    </span>
+
+                </a>
+                <a href="adminusers.html">
+                    <svg width="15%" hieght="15%" fill="#ffffff" viewBox="-4.5 0 32 32" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <title>users-alt</title>
+                            <path
+                                d="M11.24 14.76c0.88-0.8 1.44-2 1.44-3.28 0-2.48-2-4.48-4.48-4.48s-4.48 2-4.48 4.48c0 1.32 0.56 2.48 1.44 3.28-1 0.36-1.88 0.92-2.64 1.72-2.68 2.88-2.52 7.52-2.52 7.72 0.040 0.48 0.4 0.84 0.88 0.8s0.8-0.4 0.8-0.88c0-0.040-0.16-4.12 2.12-6.52 1.080-1.12 2.56-1.72 4.44-1.72 1.84 0 3.32 0.56 4.4 1.68 2.28 2.36 2.12 6.48 2.12 6.52-0.040 0.48 0.32 0.84 0.8 0.88 0 0 0.040 0 0.040 0 0.44 0 0.8-0.36 0.84-0.8 0-0.2 0.2-4.84-2.6-7.72-0.72-0.76-1.6-1.32-2.6-1.68zM5.44 11.48c0-1.52 1.24-2.8 2.8-2.8s2.8 1.24 2.8 2.8c0 1.52-1.24 2.8-2.8 2.8s-2.8-1.28-2.8-2.8zM21.4 13.36c-0.4-0.44-0.88-0.76-1.4-1 0.44-0.56 0.72-1.24 0.72-2 0-1.76-1.4-3.16-3.16-3.16s-3.16 1.4-3.16 3.16c0 0.76 0.28 1.44 0.72 2-0.4 0.2-0.8 0.44-1.12 0.76-0.36 0.32-0.36 0.84-0.080 1.2 0.32 0.36 0.84 0.36 1.2 0.080 0.64-0.56 1.44-0.84 2.44-0.84 1.12 0 1.96 0.32 2.6 1 1.36 1.44 1.28 3.92 1.28 3.96-0.040 0.48 0.32 0.84 0.8 0.88 0 0 0.040 0 0.040 0 0.44 0 0.8-0.36 0.84-0.8 0.040-0.16 0.12-3.28-1.72-5.24zM16.080 10.4c0-0.8 0.68-1.48 1.48-1.48s1.48 0.68 1.48 1.48-0.68 1.48-1.48 1.48c-0.8 0-1.48-0.68-1.48-1.48z">
+                            </path>
+                        </g>
+                    </svg>
+
+                    <span>
+                        Пользователи
+                    </span>
+
+
+                </a>
+                <a href="adminCatalog.html">
+                    <svg width="15%" hieght="15%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        stroke="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path d="M3 10H21M3 10L5 20H19L21 10M3 10L9 4M21 10L15 4" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+
+                    <span>Католог</span>
+
+
+                </a>
+            </nav>
+
+            <div class="bye" >
+                <button type="button" onclick="logout()">
+                    Выйти
+                </button>       
+            </div>
+        </aside>
+        <section>
+            
+            <div class="panel">
+                <span class="qwer">
+                    Панель управления над пользователями
+                </span>
+            </div>
+            <form action="#" id="insertUserForm" onsubmit="insertUsers(event)" >
+                <div class="form-item">
+                    <p>email adress пользователя</p>
+                    <input required name="name" type="email" name="username" id="username">
+                </div>
+                <div class="form-item"> 
+                    <p>
+                        Что вы хотите с ним сделать ?
+                    </p>
+                    <select name="insertWith" id="insertWith">
+                        <option value="watchUser">Посмотреть пользователя</option>
+                        <option value="banUser">Заблокировать</option>
+                        <option value="unbanUser">Разблокировать</option>
+                        <option value="giveAdmin">Добавить в администраторы</option>
+                        <option value="removeAdmin">Забрать админ права</option>
+                    </select>
+                </div>
+               <button class="searchBtn" type="submit" >
+                    Взаимодействовать
+               </button>
+            </form>
+            
+            <div id="result">
+                
+            </div>
+        </section>
+    </main>
+
+
+    <script src="../../js/admin.js"></script>
+</body>
+
+</html>
+
+<!-- кол-товаров кол-пользоватлей кол-команды заданий -->

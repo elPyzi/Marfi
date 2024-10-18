@@ -36,12 +36,12 @@ async function generateCode() {
 }
 
 const transporter = nodemailer.createTransport({
-    host: 'smtp.mail.ru',
+    host: 'host',
     port: 465,
     secure: true,
     auth: {
-        user: 'officalmarfi@mail.ru',
-        pass: 'UbJjVJe1wPcsKmHnqApb'
+        user: 'mail',
+        pass: 'pass'
     }
 });
 
